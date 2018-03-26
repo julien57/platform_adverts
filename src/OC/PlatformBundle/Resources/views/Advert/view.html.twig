@@ -1,0 +1,62 @@
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+    Lecture d'une annonce - {{ parent() }}
+{% endblock %}
+
+{% block ocplatform_body %}
+
+    <h2>{{ advert.title }}</h2>
+
+    <p><i>Par {{ advert.author }}, le {{ advert.date|date('d/m/Y') }}</i></p>
+
+    {% if advert.image %}
+        <img src="{{ asset(advert.image.webPath) }}"
+             alt="{{ advert.image.alt }}"
+        />
+    {% endif %}
+
+    <hr>
+
+    <div class="well">
+        {{ advert.content }}
+    </div>
+
+    {% if listAdvertSkills %}
+        <ul>
+            {% for advertSkill in listAdvertSkills %}
+                <li>{{ advertSkill.skill.name }} : niveau {{ advertSkill.level }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if advert.categories is not null %}
+        {{ 'advert.show.message_categories'|trans }} :
+        {% for category in advert.categories %}
+            {{ category.name }}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <p>
+        <a href="{{ path('oc_platform_home') }}" class="btn btn-default">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            {% trans %}advert.show.retour_liste{% endtrans %}
+        </a>
+        <a href="{{ path('oc_platform_edit', {'id': advert.id}) }}" class="btn btn-default">
+            <i class="glyphicon glyphicon-edit"></i>
+            {% trans %}advert.show.edit_button{% endtrans %}
+        </a>
+        <a href="{{ path('oc_platform_delete', {'id': advert.id}) }}" class="btn btn-danger">
+            <i class="glyphicon glyphicon-trash"></i>
+            {% trans %}advert.show.delete_button{% endtrans %}
+        </a>
+    </p>
+
+    {% if listApplications %}
+        {% for application in listApplications %}
+            <p>{{ application.content }}<br>
+            par <strong>{{ application.author }}</strong>, le {{ application.date|date('d-m-Y') }}</p>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,6 @@
+hello: Bonjour %name% !
+adverts list: Liste des annonces
+advert:
+    show:
+        edit_button: Editer l'annonce
+        delete_button: Supprimer l'annonce

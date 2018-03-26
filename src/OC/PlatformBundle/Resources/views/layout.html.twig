@@ -1,0 +1,22 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+    {{ 'Annonces'|trans }} - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+
+    <h1>{{ 'Liste des annonces'|trans }}</h1>
+
+    {% for messagePurge in app.session.flashbag.get('purgeInfo') %}
+        <div class="alert alert-success">
+            {{ messagePurge }}
+        </div>
+    {% endfor %}
+
+    <hr>
+
+    {% block ocplatform_body %}
+    {% endblock %}
+
+{% endblock %}

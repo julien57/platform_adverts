@@ -1,0 +1,16 @@
+hello: Hello %name%!
+Liste des annonces: Adverts list
+Annonces: Adverts
+dernieres_annonces: Latest ads
+titre_platform: This project is powered by Symfony, and built with MOOC OpenClassRooms and SensioLabs.
+advert:
+    show:
+        edit_button: Edit advert
+        delete_button: Delete advert
+        retour_liste: Return to list
+        message_categories: This advert has been published in the categories
+
+menu:
+    accueil: Home
+    ajout_annonce: Add advert
+    connexion: Connection

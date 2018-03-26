@@ -1,0 +1,13 @@
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+    Fiche client - {{ parent() }}
+{% endblock %}
+
+{%  block ocplatform_body %}
+
+    <h2>Formulaire client</h2>
+
+    {{ form(form) }}
+
+{% endblock %}
