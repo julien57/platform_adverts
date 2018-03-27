@@ -1,5 +1,5 @@
 hello: Hello %name%!
-Liste des annonces: Adverts list
+liste_annonces: Adverts list
 Annonces: Adverts
 dernieres_annonces: Latest ads
 titre_platform: This project is powered by Symfony, and built with MOOC OpenClassRooms and SensioLabs.

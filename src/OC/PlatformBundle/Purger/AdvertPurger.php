@@ -33,7 +33,9 @@ class AdvertPurger
     public function purge(int $days)
     {
         $advertRepository = $this->em->getRepository(Advert::class);
-        $listAdverts = $advertRepository->purgeOutdatedAdverts($days);
+
+        $purgeDate = new \DateTime('-'.$days.' month');
+        $listAdverts = $advertRepository->purgeOutdatedAdverts($purgeDate);
 
         $advertSkillRepository = $this->em->getRepository(AdvertSkill::class);
         $advertSkills = $advertSkillRepository->findByAdvert($listAdverts);

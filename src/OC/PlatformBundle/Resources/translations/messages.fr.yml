@@ -1,6 +1,16 @@
-hello: Bonjour %name% !
-adverts list: Liste des annonces
+hello: Hello %name%!
+liste_annonces: Liste des annonces
+Annonces: Annonces
+dernieres_annonces: Dernières annonces
+titre_platform: Ce projet est propulsé par Symfony 3.3, et construit grâce au MOOC OpenClassRooms et SensioLabs.
 advert:
     show:
-        edit_button: Editer l'annonce
+        edit_button: Modifier l'annonce
         delete_button: Supprimer l'annonce
+        retour_liste: Retour à la liste
+        message_categories: Cette annonce a été publié dans les catégories
+
+menu:
+    accueil: Accueil
+    ajout_annonce: Ajouter une annonce
+    connexion: Connexion

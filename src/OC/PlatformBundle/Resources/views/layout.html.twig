@@ -6,7 +6,7 @@
 
 {% block body %}
 
-    <h1>{{ 'Liste des annonces'|trans }}</h1>
+    <h1>{{ 'liste_annonces'|trans }}</h1>
 
     {% for messagePurge in app.session.flashbag.get('purgeInfo') %}
         <div class="alert alert-success">

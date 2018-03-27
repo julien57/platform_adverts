@@ -116,14 +116,12 @@ class AdvertRepository extends \Doctrine\ORM\EntityRepository
         return $qb->getQuery()->getResult();
     }
 
-    public function purgeOutdatedAdverts(int $days)
+    public function purgeOutdatedAdverts(\DateTime $days)
     {
-        $purgeDate = new \DateTime('-'.$days.' month');
-
         $query = $this
             ->createQueryBuilder('a')
             ->where('a.updatedAt <= :date')
-            ->setParameter('date', $purgeDate)
+            ->setParameter('date', $days)
             ->andWhere('a.applications IS EMPTY')
             ->getQuery();
 
