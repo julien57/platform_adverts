@@ -8,11 +8,10 @@ use Symfony\Component\HttpFoundation\Request;
 
 class JsonParamConverter implements ParamConverterInterface
 {
-
     /**
      * Stores the object in the request.
      *
-     * @param Request $request The request
+     * @param Request        $request       The request
      * @param ParamConverter $configuration Contains the name, class and options of the object
      *
      * @return bool True if the object has been successfully set, else false

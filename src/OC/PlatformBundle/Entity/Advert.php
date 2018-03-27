@@ -5,7 +5,6 @@ namespace OC\PlatformBundle\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
-use OC\PlatformBundle\Validator\Antiflood;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
@@ -391,13 +390,12 @@ class Advert
     {
         $forbiddenWords = [
             'démotivation',
-            'abandon'
+            'abandon',
         ];
 
-        if (preg_match('#'.implode('|', $forbiddenWords).'#', $this->getContent())){
-
+        if (preg_match('#'.implode('|', $forbiddenWords).'#', $this->getContent())) {
             $context
-                ->buildViolation("Contenu invalide car il contient un mot interdit.")
+                ->buildViolation('Contenu invalide car il contient un mot interdit.')
                 ->atPath('title')
                 ->addViolation()
             ;

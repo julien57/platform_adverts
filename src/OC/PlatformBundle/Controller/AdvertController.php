@@ -5,8 +5,6 @@ namespace OC\PlatformBundle\Controller;
 use OC\PlatformBundle\Entity\Advert;
 use OC\PlatformBundle\Entity\AdvertSkill;
 use OC\PlatformBundle\Entity\Application;
-use OC\PlatformBundle\Event\MessagePostEvent;
-use OC\PlatformBundle\Event\PlatformEvents;
 use OC\PlatformBundle\Form\AdvertEditType;
 use OC\PlatformBundle\Form\AdvertType;
 use OC\PlatformBundle\Form\ClientType;
@@ -14,14 +12,12 @@ use OC\PlatformBundle\Form\ContactType;
 use OC\PlatformBundle\Model\ClientDTO;
 use OC\PlatformBundle\Model\ContactDTO;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
 class AdvertController extends Controller
 {
@@ -76,8 +72,6 @@ class AdvertController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-
-
         $listApplications = $em
             ->getRepository(Application::class)
             ->findBy(['advert' => $advert]);
@@ -106,7 +100,6 @@ class AdvertController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-
             $em = $this->getDoctrine()->getManager();
             $em->persist($advert);
             $em->flush();

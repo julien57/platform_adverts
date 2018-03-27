@@ -8,7 +8,6 @@ use OC\UserBundle\Entity\User;
 
 class LoadUser implements FixtureInterface
 {
-
     /**
      * Load data fixtures with the passed EntityManager
      *
@@ -19,7 +18,6 @@ class LoadUser implements FixtureInterface
         $listNames = ['Alexandre', 'Martin', 'Anna'];
 
         foreach ($listNames as $name) {
-
             $user = new User();
 
             $user->setUsername($name);

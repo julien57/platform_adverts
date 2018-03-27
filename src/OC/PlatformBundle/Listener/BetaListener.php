@@ -2,7 +2,6 @@
 
 namespace OC\PlatformBundle\Listener;
 
-
 use OC\PlatformBundle\Event\BetaHTMLAdder;
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 

@@ -2,7 +2,6 @@
 
 namespace OC\PlatformBundle\Model;
 
-
 class ContactDTO
 {
     /**

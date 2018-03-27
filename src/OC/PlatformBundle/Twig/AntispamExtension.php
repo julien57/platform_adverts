@@ -19,7 +19,7 @@ class AntispamExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('checkIfSpam', [$this, 'checkIfArgumentIsSpam'])
+            new \Twig_SimpleFunction('checkIfSpam', [$this, 'checkIfArgumentIsSpam']),
         ];
     }
 
@@ -33,4 +33,3 @@ class AntispamExtension extends \Twig_Extension
         return 'OCAntispam';
     }
 }
-

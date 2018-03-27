@@ -37,7 +37,6 @@ class AntifloodValidator extends ConstraintValidator
         ;
 
         if ($isFlood) {
-
             $this->context
                 ->buildViolation($constraint->message)
                 ->setParameters(['%string%' => $value])

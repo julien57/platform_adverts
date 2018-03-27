@@ -2,7 +2,6 @@
 
 namespace OC\PlatformBundle\Event;
 
-
 use Symfony\Component\HttpFoundation\Response;
 
 class WelcomeEvent
