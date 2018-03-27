@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae0e6c0-020b-4998-8c06-aeacdc9f3186" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Purger/AdvertPurger.php" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Purger/AdvertPurger.php" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Repository/AdvertRepository.php" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Repository/AdvertRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.en.yml" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.fr.yml" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.fr.yml" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.fr.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.fr.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.fr.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -127,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Model/ClientDTO.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Form/ClientType.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Model/ContactDTO.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Validator/Antiflood.php" />
@@ -178,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.fr.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -243,8 +249,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -270,102 +277,6 @@
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Exception" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="OC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PlatformBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Advert" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -442,17 +353,18 @@
       <workItem from="1521834910121" duration="64000" />
       <workItem from="1521834985397" duration="50000" />
       <workItem from="1521835047022" duration="13713000" />
-      <workItem from="1521969911510" duration="16089000" />
+      <workItem from="1521969911510" duration="17089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344458000" />
+    <option name="totallyTimeSpent" value="345458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18802084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27087379" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2020,14 +1932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Repository/AdvertRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -2096,6 +2000,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
